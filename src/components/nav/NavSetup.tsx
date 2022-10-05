@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar: React.FC<any> = () => {
     return (
-        <nav className="flex fixed items-center justify-between flex-wrap bg-white p-6 w-full border-b-gray- border shadow-xl z-20">
+        <nav className="flex fixed items-center justify-between flex-wrap bg-white p-6 w-full border-b-gray- border shadow-sm z-20">
         <div className="flex items-center flex-shrink-0 text-black mr-6">
           <span className="font-semibold text-xl tracking-tight">
             ㅇㅅㅇ

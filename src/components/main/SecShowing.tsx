@@ -4,7 +4,7 @@ import Image from "next/image";
 const Card: React.FC<any> = (props: any) => {
   return (
     <div className="flex mx-5 text-left">
-      <div className="block p-6 border-2 rounded-lg shadow-lg bg-white max-w-sm">
+      <div className="block p-6 rounded-lg shadow-sm bg-white max-w-sm">
         <h5 className="text-gray-900 text-xl leading-tight font-medium mb-2">
           {props.title}
         </h5>
