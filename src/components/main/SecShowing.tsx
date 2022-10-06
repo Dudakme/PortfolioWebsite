@@ -40,7 +40,7 @@ const SecSec: React.FC<any> = () => {
         />
       </div>
       <div className="inline-flex justify-center w-screen mb-10">
-        <Card
+        <Card className='align-'
           title="Ktor"
           description="Ktor 를 이용한 REST API 제작 경험. (간단 간편 그리고 완벽한 파일 구조 :o )"
         />

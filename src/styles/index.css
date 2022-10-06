@@ -3,4 +3,13 @@
 
 /* Your own custom component styles */
 
+.hidden {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.show {
+    opacity: 1;
+}
+
 @import 'tailwindcss/utilities';
