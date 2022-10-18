@@ -4,7 +4,7 @@ import WaveAnimation from "./waveAnimation";
 
 const FirstSec: React.FC<any> = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mt-40 relative">
       <WaveAnimation />
       <div>
         <main className="pt-4 text-center pb-72 bg-blue-600">
