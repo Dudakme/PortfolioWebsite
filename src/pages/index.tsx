@@ -1,8 +1,8 @@
 import Navbar from "../components/nav/NavSetup";
 import FirstSec from "../components/main/FirstShowing";
 import SecSection from "../components/main/SecShowing";
-import ThirdSection from '../components/main/projectSec'
-import Footerbar from '../components/footer/Footer'
+import ThirdSection from "../components/main/projectSec";
+import Footerbar from "../components/footer/Footer";
 
 import React, { useState, useEffect } from "react";
 
@@ -30,8 +30,9 @@ export default function Home() {
     console.log("did start");
   });
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Navbar />
+
       <FirstSec />
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
