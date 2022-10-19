@@ -17,7 +17,7 @@ const FirstSec: React.FC<any> = () => {
           <h1 className="font-bold drop-shadow-sm text-5xl z-10 mb-3 text-white">
             학생 개발자
           </h1>
-          <p className="text-xl text-gray-300">
+          <p className="text-xl text-gray-300 drop-shadow-sm">
             안녕하세요. 개발을 좋아하는 평범한 학생입니다.
           </p>
         </main>
