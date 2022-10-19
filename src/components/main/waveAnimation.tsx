@@ -1,24 +1,7 @@
 import styles from "../../styles/waveAnimation.module.css";
 
 const WaveAnimation: React.FC = () => {
-  return (
-    <div className="mt-40">
-      <div className={styles.ocean}>
-        <div className={styles.waveGroup}>
-          <div className={styles.wave}></div>
-          <div className={styles.wave}></div>
-        </div>
-        <div className={styles.waveGroup}>
-          <div className={styles.wave}></div>
-          <div className={styles.wave}></div>
-        </div>
-        <div className={styles.waveGroup}>
-          <div className={styles.wave}></div>
-          <div className={styles.wave}></div>
-        </div>
-      </div>
-    </div>
-  );
+  return <div className={styles.waves}></div>;
 };
 
 export default WaveAnimation;
