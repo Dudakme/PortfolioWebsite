@@ -8,7 +8,7 @@ const FirstSec: React.FC<any> = () => {
       <div className="flex flex-col mt-40 relative">
       <WaveAnimation />
       <div>
-        <main className="pt-4 text-center pb-72 bg-blue-600 h-screen">
+        <main className="pt-4 text-center pb-36 bg-blue-600 h-screen">
           <Image
             src="/fish.svg"
             width="100"
