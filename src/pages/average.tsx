@@ -1,8 +1,6 @@
 import Navbar from "../components/nav";
-import FirstSec from "../components/main/FirstShowing";
-import SecSection from "../components/main/SecShowing";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 export default function Home() {
   const [input, setInput] = useState("");
