@@ -1,7 +1,6 @@
 import React from "react";
-import Link from "next/link";
 
-const Footerbar: React.FC<any> = () => {
+const Footer: React.FC<{}> = () => {
   return (
     <footer className="flex items-center justify-between flex-wrap bg-gray-800 p-6 w-full shadow-md z-20 opacity-100">
 
@@ -29,4 +28,4 @@ const Footerbar: React.FC<any> = () => {
   );
 };
 
-export default Footerbar;
+export default Footer;

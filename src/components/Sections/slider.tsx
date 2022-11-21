@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import WaveAnimation from "./waveAnimation";
+import WaveAnimation from "../waveAnimation";
 
-const FirstSec: React.FC<any> = () => {
+const Slider: React.FC = () => {
   return (
-    <div className="h-screen">
+    <div className="text-center">
       <div className="flex flex-col mt-40 relative">
-      <WaveAnimation />
       <div>
+      <WaveAnimation />
         <main className="pt-4 text-center pb-36 bg-blue-600 h-screen">
           <Image
             src="/fish.svg"
@@ -28,4 +28,4 @@ const FirstSec: React.FC<any> = () => {
   );
 };
 
-export default FirstSec;
+export default Slider;

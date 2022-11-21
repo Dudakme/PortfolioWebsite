@@ -1,26 +1,12 @@
+import { SecondCard as Card } from "../cards";
 import React from "react";
-import Image from "next/image";
 
-const Card: React.FC<any> = (props: any) => {
-  return (
-    <div className="flex md:mx-5 mx-1 text-left" id='project'>
-      <div className="block p-6 rounded-lg shadow-md bg-white max-w-sm">
-        <h5 className="text-gray-900 md:text-xl text-sm leading-tight font-medium mb-2">
-          {props.title}
-        </h5>
-        <p className="text-gray-700 md:text-xl text-sm mb-4">{props.description}</p>
-      </div>
-    </div>
-  );
-};
-
-const SecSec: React.FC<any> = () => {
+const SecSec: React.FC = () => {
   return (
     <main className="pb-10 justify-center text-center bg-blue-600 pt-10 shadow-md">
       <h1 className="text-4xl mb-10 text-gray-100">프로젝트</h1>
       <div className="flex justify-center">
         <Card
-        
           title="간편한 평균 구하기"
           description="Next.js 를 이용해서 만든 평균 구하는 애플리케이션. React 의 props 와 useState 을 더 정교하게 다루게 됨."
         />

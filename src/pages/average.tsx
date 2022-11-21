@@ -1,4 +1,4 @@
-import Navbar from "../components/nav/NavSetup";
+import Navbar from "../components/nav";
 import FirstSec from "../components/main/FirstShowing";
 import SecSection from "../components/main/SecShowing";
 
