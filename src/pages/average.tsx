@@ -15,11 +15,7 @@ export default function Home() {
       result += number;
     });
 
-    console.log(result)
-
     result = result / (Numbers.length);
-
-    console.log(Numbers.length)
 
     setResult(result)
 
